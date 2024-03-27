@@ -22,6 +22,7 @@ class TransactionControllerTest extends TestCase
         $payee = Wallet::factory()->retailer()->create([
             'balance' => 0
         ]);
+
         $amount = 5_00;
 
         // Act
